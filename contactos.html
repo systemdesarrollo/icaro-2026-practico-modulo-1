@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <header>
+        <!--menu principal-->
+        <nav class="navbar navbar-expand-lg bg-warning p-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">System</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item me-3">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item me-3">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+                </li>
+            <!--   <li class="nav-item me-3">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>          
+                </li>
+                <li class="nav-item me-3">
+                <a class="nav-link" href="clientes.html">Clientes</a>
+                </li>        --> 
+                <li class="nav-item">
+                <a class="nav-link" href="contactos.html">Contacto</a>
+                </li>        
+            </ul>
+        <!-- <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Busqueda</button>
+            </form>-->
+            </div>
+        </div>
+        </nav>
+    </header>    
+
+    <main>
+       <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-center bg-body-secondary p-3">
+                
+                </div>
+            </div>
+        </div> 
+        <div class="container-fluid">
+            <div class="row">
+                <!--<div class="col-6 text-center bg-body-secondary p-3"> -->
+                    <!-- col-md-6 cada caja ocupa la mitad de la pantalla en dispositivos medianos o más grandes.-->
+                    <!--col-12: en pantallas chicas (celulares), cada caja ocupa todo el ancho (se apilan)-->
+                 <div class="col-md-6 col-12 text-center bg-body-secondary p-3">
+                  <h4>Redes de Contacto</h4>  
+                  <i class="bi bi-instagram"></i>
+                  <i class="bi bi-facebook"></i>                  
+                  <i class="bi bi-whatsapp"></i>   
+                  <i class="bi bi-linkedin"></i>
+                 </div>
+
+                 <div class="col-md-6 bg-body-secondary p-3">                  
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre">                                                                            
+                        </div>   
+                        <div class="mb-3">
+                            <label for="apellido" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" id="apellido">                        
+                        </div>   
+
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">Nunca Compartiremos tu email con nadie</div>
+                        </div>
+ 
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1" checked>
+                            <label class="form-check-label" for="radioDefault1">
+                                Comercio
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                            <label class="form-check-label" for="radioDefault1">
+                                Empresa
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2">
+                            <label class="form-check-label" for="radioDefault2">
+                                Pyme
+                            </label>
+                        </div>
+
+
+                        <div class="mb-3">
+                             <div class="m-3 text-center">
+                             <label class="textarea">Detalle su inquietud</label>                             
+                           </div>                                                       
+                          <textarea class="form-control" aria-label="With textarea"></textarea>
+                         </div>
+                       <!-- <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>  
+                       
+                        <button type="submit" class="btn btn-primary m-3">Enviar</button>
+                    </form>
+                </div>                                              
+            </div>
+        </div> 
+
+
+    </main>
+
+    <footer>
+        <!--footer-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-center bg-body-secondary p-3">
+                <p><span class="fw-bold">System Desarrollo</span> - Software para crecer 2026 - Todos los derechos reservados</p>
+                </div>
+        </div>
+        </div> 
+    </footer>
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
