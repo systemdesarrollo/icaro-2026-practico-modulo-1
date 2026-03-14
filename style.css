@@ -1,0 +1,39 @@
+/* style de index.html*/
+img {
+   height: 380px;
+   width: 100%;
+}
+.presentacion {
+    /*color: rgb(46, 43, 43);  */
+    /*text-decoration:underline;*/
+    font-family:'Times New Roman', Times, serif ;
+    font-size:larger;
+}
+/*style de contactos*/
+
+
+/*style de servicios*/
+
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            min-height: 100vh;
+        }
+
+        /** Layout */
+        .container {
+            display: grid;
+            grid-template-columns: 100%; 
+        /*    grid-template-rows: auto 1fr auto;*/
+            grid-template-areas:
+                "header"
+                "sectiona"
+                "sectionb"
+                "footer";
+            min-height: 100vh;
+        }
