@@ -53,3 +53,11 @@ img {
      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
      font-size:large;
 }
+.p_experiencias{
+    text-align: center;
+    text-decoration-color: #ec8f8f;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-style: italic;
+    font-weight:bold;      
+}
