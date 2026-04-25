@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>System Desarrollo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     
@@ -13,7 +13,13 @@
         <!--menu principal-->
         <nav class="navbar navbar-expand-lg bg-warning p-2">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">SystemDesarrollo</a>
+            <a class="navbar-brand" href="index.html">SystemDesarrollo</a> 
+            <!-- <div class="modal-header">
+               <h1 class="modal-title">
+                 <img class="rounded-5"  src="img/logo.png" alt="imagen" style="height:100px;">
+               </h1> 
+            </div> -->
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -34,6 +40,9 @@
                 <li class="nav-item">
                 <a class="nav-link" href="contactos.html">Contacto</a>
                 </li>        
+                 <li class="nav-item">
+                <a class="nav-link" href="javascript.html">Ventas</a>
+                </li> 
             </ul>
         <!-- <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -49,11 +58,12 @@
             <div class="row">
                <div class="col p-4 bg-body-secondary">
                   <div class="position-relative text-center">
-                    <img src="imagen.png" class="img-fluid" alt="Imagen de ejemplo">
+                    <img src="img/imagen.png" class="img-fluid" alt="Imagen de ejemplo">
                     <div class="position-absolute top-50 start-50 translate-middle text-white">
-                        <h1><span class="presentacion">System Desarrolo</span></h1>
-                         <h2>El Software de Gestion Mas eficaz del Mercado</h2>
-                        <p>Resolviendo todas las necesitades de tu empresa</p>
+                        <h1 ><span id="presentacionarriba" class="presentacion">System Desarrollo</span></h1>
+                         <h2 class="presentacionarriba">El Software de Gestion Mas eficaz del Mercado</h2>
+                        <p class="presentacionarriba">Resolviendo todas las necesitades de tu empresa</p>
+                        <h4 class="presentacionarriba">Ventas de Equipos y Accesorios</h4>
                     </div>
                    </div>
                 </div>
@@ -71,7 +81,44 @@
         </div>
         </div> 
     </footer>
+   <script>
 
+    /*
+    Las template strings permiten insertar variables y expresiones en cadenas de texto usando backticks
+                          (`), el signo pesos ($) y llaves ({}).
+    */
+
+        const presentacionarriba = document.getElementById('presentacionarriba');
+        //const presentacionarriba = document.querySelectorAll('.presentacionarriba');
+            
+     //   presentacionarriba.forEach(presentacionarriba => {
+            presentacionarriba.addEventListener('mouseover', () => {
+                presentacionarriba.style.color = 'black';
+                presentacionarriba.style.fontSize = '40px';           
+            });
+
+            presentacionarriba.addEventListener('mouseout', () => {
+                presentacionarriba.style.color = 'white'; // Vuelve al color original
+                presentacionarriba.style.fontSize = '50px';  // vuelve al tamaño original
+            });
+
+       // });
+
+/*
+['h1', 'h2', 'p','h4'].forEach(tag => {
+  const el = document.querySelector(tag);
+  if (el) {
+    const size = window.getComputedStyle(el).fontSize;
+    console.log(`${tag.toUpperCase()}: ${size}`);
+  } else {
+    console.log(`${tag.toUpperCase()}: No encontrado en esta página`);
+  }
+});
+*/
+
+
+
+   </script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
