@@ -1,0 +1,63 @@
+/* style de index.html*/
+img {
+   height: 450px; /*380px;*/
+   width: 100%;
+}
+.presentacion {
+    /*color: rgb(46, 43, 43);  */
+    /*text-decoration:underline;*/
+    font-family:'Times New Roman', Times, serif ;
+    font-size:larger;
+}
+
+/*style de contactos*/
+
+.btn-micolor {
+   background-color: #9fd5f5;
+   color: black;
+   border: none;
+}
+.btn-micolor:hover {
+    background-color: #ce9c79;
+}
+
+/*style de servicios*/
+
+.h5_texto {
+    text-align: center;
+    text-decoration-style: dashed;
+    font-family: 'Times New Roman', Times, serif;
+    font-style:oblique;
+    font-size:xx-large;
+}
+.p_texto {    
+    text-align: justify;
+    text-decoration-style:double;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;    
+}
+.img_servicios {  
+    object-fit:cover;
+    max-height: 300px;
+    width: 100%;
+    padding:3%;
+}
+
+.h1_nuestros_servicios{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.h3_nuestros_servicios{
+     text-align: center;
+     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size:large;
+}
+.p_experiencias{
+    text-align: center;
+    text-decoration-color: #ec8f8f;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-style: italic;
+    font-weight:bold;      
+}
