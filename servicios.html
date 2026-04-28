@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">        
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     
@@ -54,14 +54,16 @@
                     
             <div class="row">
                 <div class="col-md-3 bg-body-secondary p-3 border border-4">  <!--text-center-->
-                   <div>
+                   <div id="nuestrosservicios">  <!-- esta clase es para uso de js-->
                       <h5 class="h5_texto">Factura electronica</h5>
-                      <p  class="p_texto">Automatice el proceso de factura electrónica en su negocio con nuestra plataforma y olvidese de sesiones caidas en Arca, ya sea para mercado interno, facturas de exportación, facturas para hoteles y turismo o bien facturas de crédito electrónica (FCE) a grandes contribuyentes. Consulte por nuestra API de factura electrónica para integraciones</p>
+                      <p class="p_texto">Automatice el proceso de factura electrónica en su negocio con nuestra plataforma y olvidese de sesiones caidas en Arca, ya sea para mercado interno, facturas de exportación, facturas para hoteles y turismo o bien facturas de crédito electrónica (FCE) a grandes contribuyentes. Consulte por nuestra API de factura electrónica para integraciones</p>
                    </div>
                 </div>
                 <div class="col-md-3 text-center bg-body-secondary p-3 border border-4">
-                   <h5 class="h5_texto">Ingresos y Egresos</h5>
-                   <p class="p_texto">Realice sus ventas, segmentando por productos clasificados con varios niveles y controlando sotck en cada paso. Registre sus compras y gastos, segmentando por productos clasificados con varios niveles, lleve el control de los vencimientos y analice sus compras y gastos para poder determinar con simplicidad donde está yendo su dinero</p>
+                   <div> 
+                    <h5 class="h5_texto">Ingresos y Egresos</h5>
+                    <p class="p_texto">Realice sus ventas, segmentando por productos clasificados con varios niveles y controlando sotck en cada paso. Registre sus compras y gastos, segmentando por productos clasificados con varios niveles, lleve el control de los vencimientos y analice sus compras y gastos para poder determinar con simplicidad donde está yendo su dinero</p>
+                   </div> 
                 </div>                
                 <div class="col-md-3 text-center bg-body-secondary p-3 border border-4">
                     <h5 class="h5_texto">Cobros y Pagos</h5>
@@ -80,26 +82,26 @@
         
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-4 bg-body-secondary p-3">                   
-                     <img src="i_compras_completa.png" class="img_servicios" alt="imagen no encontrada">                   
+                <div id="movimientosdeimagenes" class="col-md-4 bg-body-secondary p-3">                   
+                     <img src="img/i_comprasa.png" class="img_servicios" alt="imagen no encontrada">                   
                 </div>
                 <div class="col-md-4 bg-body-secondary p-3">
-                  <img src="i_compras_completo.png" class="img_servicios" alt="imagen no encontrada">
+                  <img src="img/i_comprasb.png" class="img_servicios" alt="imagen no encontrada">
                 </div>                
                 <div class="col-md-4 text-center bg-body-secondary p-3">
-                   <img src="i_tesoreria_banco.png" class="img_servicios" alt="imagen no encontrada">
+                   <img src="img/i_tesoreriab.png" class="img_servicios" alt="imagen no encontrada">
                 </div>                
                 <div class="col-md-3 bg-body-secondary p-3">                   
-                     <img src="i_compras_completa.png" class="img_servicios" alt="imagen no encontrada">                   
+                     <img src="img/i_comprasb.png" class="img_servicios" alt="imagen no encontrada">                   
                 </div>
                 <div class="col-md-3 bg-body-secondary p-3">
-                  <img src="i_tesoreria_efectivo.png" class="img_servicios" alt="imagen no encontrada">
+                  <img src="img/i_tesoreriae.png" class="img_servicios" alt="imagen no encontrada">
                 </div>                
                 <div class="col-md-3 text-center bg-body-secondary p-3">
-                   <img src="i_ctacte.png" class="img_servicios" alt="imagen no encontrada">
+                   <img src="img/i_ctacte.png" class="img_servicios" alt="imagen no encontrada">
                 </div> 
                 <div class="col-md-3 text-center bg-body-secondary p-3">
-                   <img src="i_pago_prov2.png" class="img_servicios" alt="imagen no encontrada">
+                   <img src="img/i_pago.png" class="img_servicios" alt="imagen no encontrada">
                 </div> 
             </div>
         </div> 
@@ -148,16 +150,16 @@
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col-3 bg-body-secondary p-5">
+                <div id="contadoranios" class="col-md-3 text-center bg-body-secondary p-5">
                   <p class="p_experiencias">+30 Años</p>                  
                 </div>
-                <div class="col-3 text-center bg-body-secondary p-5">
+                <div id="contadorclientes" class="col-md-3 text-center bg-body-secondary p-5">
                   <p class="p_experiencias">+100 Clientes</p>                  
                 </div>
-                <div class="col-3 text-center bg-body-secondary p-5">
+                <div id="contadorsistemasactivos" class="col-md-3 text-center bg-body-secondary p-5">
                   <p class="p_experiencias">+200 Sistemas Activos</p>
                 </div>
-                <div class="col-3 text-center bg-body-secondary p-5">
+                <div id="contadorempleados" class="col-md-3 text-center bg-body-secondary p-5">
                   <p class="p_experiencias">+20 Empleados</p>
                 </div>                                                
             </div>
@@ -175,7 +177,23 @@
             </div>
         </div> 
     </footer>
+ 
+    <script>
+/*
+        const contadoranios = document.getElementById(contadoranios);
+        let contador = 0;
+        function contadores() {                    
+        for (let contador = 0; contador <=30 ; contador++) {
+            contadoranios.textContent = "+" + contador;            
+        }};
+*/
 
+    
+
+
+    </script>
+     
+     <!--<script src="js/servicios.js"></script>-->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
