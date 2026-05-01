@@ -53,35 +53,16 @@
            
         <div class="container-fluid">
             <div class="row">
-                   <div id="contenedor-miniatura">  
-
-                   </div>
-                  <!--  <div class="col-md-2">               
-                     <img src="imgII/v_notebooks.png" class="img_servicios" alt="imagen no encontrada">                   
-                    </div> 
-                     <div class="col-md-2">               
-                     <img src="imgII/v_impresora.png" class="img_servicios" alt="imagen no encontrada">                   
-                    </div>                    
-                    <div class="col-md-2">               
-                     <img src="imgII/v_accesorios.png" class="img_servicios" alt="imagen no encontrada">                   
-                    </div>                 
-                    <div class="col-md-2">               
-                     <img src="imgII/v_monitor.png" class="img_servicios" alt="imagen no encontrada">                   
-                    </div>                  
-                    <div class="col-md-2">               
-                     <img src="imgII/v_pc.png" class="img_servicios" alt="imagen no encontrada">                   
-                    </div>                     
-                    <div class="col-md-2">               
-                     <img src="imgII/v_tv.png" class="img_servicios" alt="imagen no encontrada">                   
-                    </div> -->
-                </div>                                                                                
+                   <div id="contenedor-miniatura" class="row g-3 col-12 d-flex">  
+                    <!--aca se introduce el js-->
+                   </div>                                                                                                                  
             </div>
        </div>
 
        <div class="container-fluid">
-           <div id="contenedor-galeria" class="row g-3">
-              <!--aca se introduce el js-->
-           </div>                    
+           <div id="contenedor-galeria" class="row g-3 col-12 d-flex">
+              <!--aca se introduce el js-->              
+           </div>                               
         </div>    
 
 
@@ -98,58 +79,7 @@
         </div> 
     </footer>
   
-    <script>
-       // primero tomo el contenedor 
-       const primerImagen = document.getElementById('contenedor-miniatura');
-       // creo la etiqueta que nececito 
-       const contenedorPi = document.createElement('div');      
-       contenedorPi.className = "col-md-2";
-
-       const piImg = document.createElement('img');
-       piImg.src = `img/v_notebooks.png`;
-       piImg.className = 'img-fluid rounded';
-
-       // metemos la imagen dentro del div primero
-       contenedorPi.appendChild(piImg);
-       // segundo metemos el div dentro del contenedor       
-       primerImagen.appendChild(contenedorPi);
-   
-       
-     /* para la imagen en grande
-        const contenedorPrincipal = document.getElementById('contenedor-galeria');
-        // creo el div
-        const contenedorImagenes = document.createElement('div');
-        // asigno css de boostrap
-        contenedorImagenes.className = "col-12 d-flex flex-wrap justify-content-center";
-       // display.setAttribute('class', '');
-        contenedorImagenes.innerHTML = `
-        <div class="p-2">
-            <img src="imgII/v_notebooks.png" class="img-thumbnail" alt="Imagen">
-        </div>`;
-
-        contenedorPrincipal.appendChild(contenedorImagenes);
-*/
-
-
-/*
-const display = document.createElement('div');
-display.setAttribute('id', 'display');
-app.appendChild(display);
-
-
-
-
-
-*/
-
-
-
-    </script>
-
-
-
-
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  <!-- <script src="js/ventas.js"></script>   -->
+   <script src="js/ventas.js"></script>
 </body>
 </html>
