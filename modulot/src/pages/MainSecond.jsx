@@ -35,8 +35,9 @@ export default function MainSecond () {
             <Row>
                 <Col className="border border-3 p-4">                
                     <div> 
-                      <p className="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nisi libero id explicabo, blanditiis eaque. Ex at quaerat optio numquam velit cupiditate officia consectetur voluptatem fugit soluta, sit vitae reiciendis!</p>               
-                      <p className="parrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto culpa qui placeat modi incidunt eveniet, commodi dolorem rem! Tenetur cum eum eius quibusdam sit eaque magnam blanditiis eveniet doloremque iusto?</p>
+                      <p className="parrafo">Emití tus facturas electrónicas ante ARCA, múltiples CUITs, control de stock, listas de precios, reportes automáticos y en tu email, centros de costos, vinculá tu contabilidad y sincronizá tus ventas de tus tiendas favoritas</p>               
+                      <p className="parrafo">Nuestro objetivo es ayudarte a encontrar el equipo ideal mediante un asesoramiento personalizado. El mundo de la tecnología puede parecer confuso con tantas especificaciones técnicas complejas, pero nuestro trabajo es traducir esos datos en beneficios reales para tu día a día. Asegurandote que lo que lleves resuelva exactamente lo que necesitas, ya sea para estudiar, trabajar, diseñar o disfrutar de tus videojuegos favoritos.</p>                                     
+                      <p className="parrafo">Contamos con un equipo de soporte para dar solución a los clientes más exigentes; si sus necesidades lo requieren, nos movemos hasta su empresa para darle la solución. Contamos, a su vez, con soporte básico, empresas y premium</p>
                     </div>                                                    
                 </Col>
             </Row>      
