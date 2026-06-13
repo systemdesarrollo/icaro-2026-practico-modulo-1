@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";   // destructuro
 import Layouts from "./Layouts";
 import ContactoUbicacion from "../pages/ContactoUbicacion";
-import ContactoTelefonos from "../pages/ContactoTelefonos";
 import ContactoFormulario from "../pages/ContactoFormulario";
 
 
@@ -13,16 +12,16 @@ export default function ContactoBind() {
         <Layouts>
              <Container fluid>
                 <Row>
-                    <Col className="col-md-6 text-center bg-body-secondary p-5 align-content-center">
-                        <ContactoUbicacion/>              
+                    <Col className="col-12 col-md-6 text-center bg-body-secondary p-5 align-content-center">
+                        <ContactoUbicacion/>                                      
                    </Col>
-                   <Col className="col-md-6 text-center bg-body-secondary p-5 align-content-center">
-                        <ContactoTelefonos/>
-                   </Col>
+                   <Col className="col-12 col-md-6 text-center bg-body-secondary p-5 align-content-center">
+                         <ContactoFormulario/>  
+                   </Col>                                     
                </Row>               
             </Container>
 
-            <ContactoFormulario/>
+                 
 
         </Layouts>
     )
