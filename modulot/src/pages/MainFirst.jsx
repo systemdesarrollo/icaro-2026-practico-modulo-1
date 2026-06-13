@@ -14,7 +14,7 @@ export default function MainFirst () {
             <Carousel.Item>
                 <img
                 className="d-block w-100"
-                src="assets/sistemas.jpg?text=Second slide&bg=eee"
+                src="src/assets/sistemas.jpg?text=Second slide&bg=eee"
                 alt="First slide"
                 />
                 <Carousel.Caption>
@@ -25,7 +25,7 @@ export default function MainFirst () {
             <Carousel.Item>
                 <img
                 className="d-block w-100"
-                src="assets/ventas.jpg?text=Second slide&bg=eee"
+                src="src/assets/ventas.jpg?text=Second slide&bg=eee"
                 alt="Second slide"
                 />
                 <Carousel.Caption>
@@ -36,7 +36,7 @@ export default function MainFirst () {
             <Carousel.Item>
                 <img
                 className="d-block w-100"
-                src="assets/ventas.jpg?text=Third slide&bg=e5e5e5"
+                src="src/assets/reparaciones.jpg?text=Third slide&bg=e5e5e5"
                 alt="Third slide"
                 />
                 <Carousel.Caption>
