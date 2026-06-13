@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";   // destructuro
  
 
-export default function Footters() {
+export default function FooterGeneral() {
         
     return (
 
