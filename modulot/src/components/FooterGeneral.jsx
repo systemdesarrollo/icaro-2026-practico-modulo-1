@@ -11,7 +11,7 @@ export default function FooterGeneral() {
             <Container fluid>
                 <Row>                                          
 
-                    <Col className="col-md-6 text-center bg-body-secondary p-5 align-content-center">
+                    <Col className="col-md-6 text-center bg-secondary p-3 align-content-center">
                         <h4>Nuestras Redes - Seguinos</h4> 
 
                         <div>                         
@@ -95,11 +95,11 @@ export default function FooterGeneral() {
                         </div>          
                     </Col>  
 
-                    <Col md={6} className="col-md-6 text-center bg-body-secondary p-5 align-content-center">
+                    <Col md={6} className="col-md-6 text-center bg-secondary p-3 align-content-center">
                            <h3>Telefonos</h3>
                            <p>2302-666555-666556</p>
                     </Col>                    
-                    <Col className="col-12 text-center bg-body-secondary p-3">  {/*  col-12   xs={12}   */}
+                    <Col className="col-12 text-center bg-secondary">  {/*  col-12   xs={12}   */}
                           <p><span className="fw-bold">System Desarrollo</span> - Software para crecer 2026 - Todos los derechos reservados</p>
                     </Col>
                                        
