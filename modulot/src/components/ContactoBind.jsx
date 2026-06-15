@@ -10,6 +10,7 @@ export default function ContactoBind() {
     return (
         
         <Layouts>
+
              <Container fluid>
                 <Row>
                     <Col className="col-12 col-md-6 text-center bg-body-secondary p-5 align-content-center">
@@ -20,9 +21,7 @@ export default function ContactoBind() {
                    </Col>                                     
                </Row>               
             </Container>
-
                  
-
         </Layouts>
     )
 }
