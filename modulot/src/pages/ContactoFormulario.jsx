@@ -46,8 +46,8 @@ export default function ContactoFormulario() {
     return (
         
         <Container fluid>
-            <Row>
-                <Col className="col-12 col-md-6 text-center bg-secondary align-content-center">
+            <Row className=" p-2 border border-3">
+                <Col className="col-12 col-md-6 text-center bg-body-secondary align-content-center">
                    <Form action="" onSubmit={handleSubmit(onSubmit)}>
                                                                                                   
                         <Form.Group className="mb-3">
@@ -105,7 +105,7 @@ export default function ContactoFormulario() {
                    </Form>                                
                 </Col>
 
-                <Col className="col-12 col-md-6 text-center bg-secondary align-content-center">
+                <Col className="col-12 col-md-6 text-center bg-body-secondary align-content-center">
                    <Form action="" onSubmit={handleSubmit(onSubmit)}>
 
                         <Form.Group className="mb-5">
