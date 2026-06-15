@@ -14,7 +14,6 @@ import MainSecond from './pages/MainSecond.jsx';
 import SistemasServicios from './pages/SistemasServicios.jsx';
 import SistemasProductos from './pages/SistemasProductos.jsx';
 import SistemasDetalles from './pages/SistemasDetalles.jsx';
-import SistemasClientes from './pages/SistemasClientes.jsx';
 import SistemasBind from './components/SistemasBind.jsx';
 import Layouts from './components/Layouts.jsx';
 import ContactoBind from './components/ContactoBind.jsx';
@@ -41,9 +40,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='/sistemasservicios' element={<SistemasServicios />}/>
         <Route path='/sistemasproductos' element={<SistemasProductos />}/>
         <Route path='/sistemasdetalles' element={<SistemasDetalles />}/>
-        <Route path='/sistemasclientes' element={<SistemasClientes />}/>
-
-
+       
         <Route path='/sistemasbind' element={<SistemasBind />}/>
         <Route path='/contactobind' element={<ContactoBind />}/>
 
